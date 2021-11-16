@@ -1,0 +1,4 @@
+#server定义服务器配置，port定义要访问的端口是8081，timeout: 30定义session超时时间是30s
+spring:
+  profiles:
+    active: prod

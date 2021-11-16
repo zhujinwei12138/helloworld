@@ -1,0 +1,10 @@
+#server定义服务器配置，port定义要访问的端口是8080，timeout: 30定义session超时时间是30s
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 30
+  tomcat:
+    uri-encoding: UTF-8
+myenvironment:
+  name: 开发环境
